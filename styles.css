@@ -1,0 +1,38 @@
+body {
+    background-image: url(../odin-recipes/images/home-page-background.jpg);
+}
+h1, li {
+    text-align: center;
+}
+#asparagus-and-egg, #buffalo-chicken-salad, #ruben-sandwich {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.recipe-names {
+    font-size: 20px;
+    transition: 0.25s;
+    padding: 10px 50px 10px 50px;
+    border-radius: 5px;
+    
+}
+li{
+    list-style-type: none;   
+}
+
+a {
+    background-color: rgb(146, 196, 239);
+    text-decoration: none;
+}
+.recipe-names:hover{
+    background-color: rgb(255, 253, 140);
+    opacity: 0.5;
+}
+.recipe-names:active {
+    background-color: rgb(255, 253, 140);
+    opacity: 5;
+}
