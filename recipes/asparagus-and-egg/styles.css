@@ -1,0 +1,21 @@
+body {
+    background-position: center;
+    background-image: url(../../images/home-page-background.jpg);
+}
+img {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+h1, ul ,ol, figcaption, #intro {
+    display: block;
+    margin-left: 220px;
+    margin-right: auto;
+}
+h1 {
+    text-align: center;
+}
