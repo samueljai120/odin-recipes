@@ -17,7 +17,15 @@ h1, ul ,ol, figcaption, #intro {
     display: block;
     margin-left: 220px;
     margin-right: auto;
+    padding-bottom: 5px;
+    text-decoration-line: underline;
 }
 h1 {
+    text-align: center;
+}
+figcaption {
+    display: block;
+    background-color: rgb(230, 255, 230);
+    width: 120px;
     text-align: center;
 }
